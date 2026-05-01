@@ -40,9 +40,11 @@ sudo modprobe cve_2026_31431_live_mitigation
 - Loading this module on an unsupported or incompatible kernel may result in a kernel panic or other critical failures.
 - The module is only effective if `algif_aead` is built-in (not as a loadable module).
 
-## Supported environment
+## Tested environment
 
-Tested on Fedora 42 (6.18.9-100.fc42.x86_64)
+- Fedora 42 (6.18.9-100.fc42.x86_64)
+- Rocky Linux 8 (4.18.0-553.el8_10.x86_64)
+- Rocky Linux 9 (5.14.0-611.5.1.el9_7.x86_64)
 
 ## License
 
